@@ -10,8 +10,8 @@
 - 申込みボタンは商品LPへ移動します。
 
 ## GitHub Pages
-Settings → Pages → Build and deployment を「Deploy from a branch」に設定し、`main` ブランチの `/docs` を選択して保存します。
-公開するファイルはすべて `docs/` にあります。ビルドは不要です。
+Settings → Pages → Build and deployment を「Deploy from a branch」に設定し、`main` ブランチの `/ (root)` を選択して保存します。
+ゲーム本体は `docs/` にあり、ルートの `index.html` から同じ素材を参照します。HTMLを更新した際は `npm run prepare:pages` でルートの入口も更新してください。
 
 ## 確認
 `npm test`（Node.js）。依存パッケージのインストールは不要です。

@@ -4,6 +4,7 @@
   "private": true,
   "description": "サクラエのクリアサイクルをモチーフにしたPlayableバナー試作",
   "scripts": {
-    "test": "node tests/game.cjs"
+    "test": "node tests/game.cjs",
+    "prepare:pages": "node scripts/prepare-pages.cjs"
   }
 }
